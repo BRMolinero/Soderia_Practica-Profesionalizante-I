@@ -1,0 +1,50 @@
+{
+  "name": "backendsoderia",
+  "version": "1.0.0",
+  "description": "Backend requerido para aplicación web para una Sodería.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BRMolinero/Soderia.git"
+  },
+  "keywords": [
+    "[\"soda",
+    "en",
+    "sifón\"",
+    "\"agua",
+    "en",
+    "bidón\"",
+    "\"dispenser",
+    "de",
+    "agua\"",
+    "\"gas",
+    "envasado\"",
+    "\"distribución\"",
+    "\"sodería\"",
+    "\"sifones\"",
+    "\"garrafas\"",
+    "\"entrega",
+    "a",
+    "domicilio\"]"
+  ],
+  "author": "Molinero, Bárbara",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/BRMolinero/Soderia/issues"
+  },
+  "homepage": "https://github.com/BRMolinero/Soderia#readme",
+  "dependencies": {
+    "backendsoderia": "file:",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
+  }
+}

@@ -1,0 +1,85 @@
+body {
+    background-image: url("../images/FondoLoginAzulBrillante.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    width: 350px;
+}
+
+.login-container h2 {
+    color: #000119;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container .form-control {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    color: #000119;
+}
+
+.login-container .btn {
+    background-color: #1D4ED8;
+    border: none;
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.login-container .btn:hover {
+    background-color: #003D79;
+}
+
+.login-container .forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-container .forgot-password a {
+    color: #003D79;
+    text-decoration: none;
+}
+
+.login-container .forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    max-width: 150px;
+}
+
+.logoEmpresa {
+    max-width: 100%;
+    height: auto;
+}
+
+.input-group-text .bi {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.form-control {
+    padding-left: 2.5rem;
+}
+
+#togglePassword {
+    cursor: pointer;
+}
